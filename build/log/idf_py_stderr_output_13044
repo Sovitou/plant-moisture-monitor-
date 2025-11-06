@@ -1,0 +1,107 @@
+[0;33m--- Warning: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM3 instead...[0m
+[0;33m--- esp-idf-monitor 1.7.0 on \\.\COM3 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0m--- 0x40080400: [0;33m_init[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m--- 0x400813c0: [0;33mcall_start_cpu1[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/esp_system/port/cpu_start.c[0m[0m:[1;31m160[0m
+[0m--- 0x40081a62: [0;33mpanic_abort[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/esp_system/panic.c[0m[0m:[1;31m466[0m
+[0m--- 0x400895d5: [0;33mesp_system_abort[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/esp_system/port/esp_system_chip.c[0m[0m:[1;31m84[0m
+[0m--- 0x4008c0f2: [0;33mvApplicationStackOverflowHook[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m582[0m
+[0m--- 0x4008adab: [0;33mvTaskSwitchContext[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c[0m[0m:[1;31m3841[0m
+[0m--- 0x4008c240: [0;33m_frxt_dispatch[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S[0m[0m:[1;31m450[0m
+[0m--- 0x4008c1f2: [0;33m_frxt_int_exit[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S[0m[0m:[1;31m245[0m
+[0m--- 0x400e8ea9: [0;33mmbedtls_mpi_div_mpi[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/mbedtls/mbedtls/library/bignum.c[0m[0m:[1;31m1509[0m
+[0m--- 0x40080400: [0;33m_init[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m--- 0x400813c0: [0;33mcall_start_cpu1[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/esp_system/port/cpu_start.c[0m[0m:[1;31m160[0m
+[0m--- 0x40081a62: [0;33mpanic_abort[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/esp_system/panic.c[0m[0m:[1;31m466[0m
+[0m--- 0x400895d5: [0;33mesp_system_abort[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/esp_system/port/esp_system_chip.c[0m[0m:[1;31m84[0m
+[0m--- 0x4008c0f2: [0;33mvApplicationStackOverflowHook[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m582[0m
+[0m--- 0x4008ad63: [0;33mvTaskSwitchContext[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c[0m[0m:[1;31m3840[0m
+[0m--- 0x4008c240: [0;33m_frxt_dispatch[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S[0m[0m:[1;31m450[0m
+[0m--- 0x4008c1f2: [0;33m_frxt_int_exit[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S[0m[0m:[1;31m245[0m
+[0m--- 0x40080400: [0;33m_init[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m--- 0x400813c0: [0;33mcall_start_cpu1[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/esp_system/port/cpu_start.c[0m[0m:[1;31m160[0m
+[0m--- 0x40081a62: [0;33mpanic_abort[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/esp_system/panic.c[0m[0m:[1;31m466[0m
+[0m--- 0x400895d5: [0;33mesp_system_abort[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/esp_system/port/esp_system_chip.c[0m[0m:[1;31m84[0m
+[0m--- 0x4008c0f2: [0;33mvApplicationStackOverflowHook[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m582[0m
+[0m--- 0x4008adab: [0;33mvTaskSwitchContext[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c[0m[0m:[1;31m3841[0m
+[0m--- 0x4008c240: [0;33m_frxt_dispatch[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S[0m[0m:[1;31m450[0m
+[0m--- 0x4008c1f2: [0;33m_frxt_int_exit[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S[0m[0m:[1;31m245[0m
+[0m--- 0x400e8379: [0;33mmbedtls_mpi_grow[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/mbedtls/mbedtls/library/bignum.c[0m[0m:[1;31m218[0m
+[0m--- 0x40080400: [0;33m_init[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m--- 0x400813c0: [0;33mcall_start_cpu1[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/esp_system/port/cpu_start.c[0m[0m:[1;31m160[0m
+[0m--- 0x40081a62: [0;33mpanic_abort[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/esp_system/panic.c[0m[0m:[1;31m466[0m
+[0m--- 0x400895d5: [0;33mesp_system_abort[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/esp_system/port/esp_system_chip.c[0m[0m:[1;31m84[0m
+[0m--- 0x4008c0f2: [0;33mvApplicationStackOverflowHook[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m582[0m
+[0m--- 0x4008ad63: [0;33mvTaskSwitchContext[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c[0m[0m:[1;31m3840[0m
+[0m--- 0x4008c240: [0;33m_frxt_dispatch[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S[0m[0m:[1;31m450[0m
+[0m--- 0x4008c1f2: [0;33m_frxt_int_exit[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S[0m[0m:[1;31m245[0m
+[0m--- 0x40080400: [0;33m_init[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m--- 0x400813c0: [0;33mcall_start_cpu1[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/esp_system/port/cpu_start.c[0m[0m:[1;31m160[0m
+[0m--- 0x40081a62: [0;33mpanic_abort[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/esp_system/panic.c[0m[0m:[1;31m466[0m
+[0m--- 0x400895d5: [0;33mesp_system_abort[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/esp_system/port/esp_system_chip.c[0m[0m:[1;31m84[0m
+[0m--- 0x4008c0f2: [0;33mvApplicationStackOverflowHook[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m582[0m
+[0m--- 0x4008adab: [0;33mvTaskSwitchContext[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c[0m[0m:[1;31m3841[0m
+[0m--- 0x4008c240: [0;33m_frxt_dispatch[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S[0m[0m:[1;31m450[0m
+[0m--- 0x4008c1f2: [0;33m_frxt_int_exit[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S[0m[0m:[1;31m245[0m
+[0m--- 0x40080400: [0;33m_init[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m--- 0x400813c0: [0;33mcall_start_cpu1[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/esp_system/port/cpu_start.c[0m[0m:[1;31m160[0m
+[0m--- 0x40081a62: [0;33mpanic_abort[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/esp_system/panic.c[0m[0m:[1;31m466[0m
+[0m--- 0x400895d5: [0;33mesp_system_abort[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/esp_system/port/esp_system_chip.c[0m[0m:[1;31m84[0m
+[0m--- 0x4008c0f2: [0;33mvApplicationStackOverflowHook[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m582[0m
+[0m--- 0x4008ad63: [0;33mvTaskSwitchContext[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c[0m[0m:[1;31m3840[0m
+[0m--- 0x4008c240: [0;33m_frxt_dispatch[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S[0m[0m:[1;31m450[0m
+[0m--- 0x4008c1f2: [0;33m_frxt_int_exit[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S[0m[0m:[1;31m245[0m
+[0m--- 0x40080400: [0;33m_init[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m--- 0x400813c0: [0;33mcall_start_cpu1[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/esp_system/port/cpu_start.c[0m[0m:[1;31m160[0m
+[0m--- 0x40081a62: [0;33mpanic_abort[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/esp_system/panic.c[0m[0m:[1;31m466[0m
+[0m--- 0x400895d5: [0;33mesp_system_abort[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/esp_system/port/esp_system_chip.c[0m[0m:[1;31m84[0m
+[0m--- 0x4008c0f2: [0;33mvApplicationStackOverflowHook[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m582[0m
+[0m--- 0x4008ad63: [0;33mvTaskSwitchContext[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c[0m[0m:[1;31m3840[0m
+[0m--- 0x4008c240: [0;33m_frxt_dispatch[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S[0m[0m:[1;31m450[0m
+[0m--- 0x4008c1f2: [0;33m_frxt_int_exit[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S[0m[0m:[1;31m245[0m
+[0m--- 0x40080400: [0;33m_init[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m--- 0x400813c0: [0;33mcall_start_cpu1[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/esp_system/port/cpu_start.c[0m[0m:[1;31m160[0m
+[0;33m--- To exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0m--- 0x40081a62: [0;33mpanic_abort[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/esp_system/panic.c[0m[0m:[1;31m466[0m
+[0m--- 0x400895d5: [0;33mesp_system_abort[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/esp_system/port/esp_system_chip.c[0m[0m:[1;31m84[0m
+[0m--- 0x4008c0f2: [0;33mvApplicationStackOverflowHook[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m582[0m
+[0m--- 0x4008ad63: [0;33mvTaskSwitchContext[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c[0m[0m:[1;31m3840[0m
+[0m--- 0x4008c240: [0;33m_frxt_dispatch[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S[0m[0m:[1;31m450[0m
+[0m--- 0x4008c1f2: [0;33m_frxt_int_exit[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S[0m[0m:[1;31m245[0m
+[0m--- 0x4008c0f2: [0;33mvApplicationStackOverflowHook[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m582[0m
+[0m--- 0x40080400: [0;33m_init[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0;33m--- To exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0m--- 0x400813c0: [0;33mcall_start_cpu1[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/esp_system/port/cpu_start.c[0m[0m:[1;31m160[0m
+[0;33m--- To exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m--- To exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m--- To exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m--- To exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m--- To exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0m--- 0x40081a62: [0;33mpanic_abort[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/esp_system/panic.c[0m[0m:[1;31m466[0m
+[0m--- 0x400895d5: [0;33mesp_system_abort[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/esp_system/port/esp_system_chip.c[0m[0m:[1;31m84[0m
+[0m--- 0x4008c0f2: [0;33mvApplicationStackOverflowHook[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m582[0m
+[0m--- 0x4008ad63: [0;33mvTaskSwitchContext[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c[0m[0m:[1;31m3840[0m
+[0m--- 0x4008c240: [0;33m_frxt_dispatch[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S[0m[0m:[1;31m450[0m
+[0m--- 0x4008c1f2: [0;33m_frxt_int_exit[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S[0m[0m:[1;31m245[0m
+[0m--- 0x4008c0f2: [0;33mvApplicationStackOverflowHook[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m582[0m
+[0m--- 0x40080400: [0;33m_init[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m--- 0x400813c0: [0;33mcall_start_cpu1[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/esp_system/port/cpu_start.c[0m[0m:[1;31m160[0m
+[0m--- 0x40081a62: [0;33mpanic_abort[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/esp_system/panic.c[0m[0m:[1;31m466[0m
+[0m--- 0x400895d5: [0;33mesp_system_abort[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/esp_system/port/esp_system_chip.c[0m[0m:[1;31m84[0m
+[0m--- 0x4008c0f2: [0;33mvApplicationStackOverflowHook[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m582[0m
+[0m--- 0x4008adab: [0;33mvTaskSwitchContext[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c[0m[0m:[1;31m3841[0m
+[0m--- 0x4008c240: [0;33m_frxt_dispatch[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S[0m[0m:[1;31m450[0m
+[0m--- 0x4008c1f2: [0;33m_frxt_int_exit[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S[0m[0m:[1;31m245[0m
+[0m--- 0x400e8f0b: [0;33mmbedtls_mpi_mod_mpi[0m[0m at [0;32mC:/Users/USer/esp/v5.1.6/esp-idf/components/mbedtls/mbedtls/library/bignum.c[0m[0m:[1;31m1544[0m
+[0m--- 0x40080400: [0;33m_init[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m
+Traceback (most recent call last):
+  File "C:\Users\USer\esp\v5.1.6\esp-idf\tools/idf_monitor.py", line 11, in <module>
+    sys.exit(subprocess.run([sys.executable, '-m', 'esp_idf_monitor'] + sys.argv[1:]).returncode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "subprocess.py", line 550, in run
+  File "subprocess.py", line 1199, in communicate
+  File "subprocess.py", line 1262, in wait
+  File "subprocess.py", line 1543, in _wait
+KeyboardInterrupt

@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "plant-moisture-monitor",
-    "project_version":    "1",
+    "project_version":    "e7e7017-dirty",
     "project_path":       "D:/embeded-system/plant-moisture-monitor",
     "idf_path":           "C:/Users/USer/esp/v5.1.6/esp-idf",
     "build_dir":          "D:/embeded-system/plant-moisture-monitor/build",
@@ -790,7 +790,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "D:/embeded-system/plant-moisture-monitor/build/esp-idf/main/libmain.a",
-            "sources": [ "D:/embeded-system/plant-moisture-monitor/main/plant-moisture-monitor.c" ],
+            "sources": [ "D:/embeded-system/plant-moisture-monitor/main/plant-moisture-monitor.c", "D:/embeded-system/plant-moisture-monitor/main/monitor.c", "D:/embeded-system/plant-moisture-monitor/main/telegram_bot.c", "D:/embeded-system/plant-moisture-monitor/main/http_server.c" ],
             "include_dirs": [ "." ]
         },
         "mbedtls": {
